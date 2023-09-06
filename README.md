@@ -10,24 +10,21 @@ This is my first React project, created as part of the Scrimba course on React. 
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Description
 
-This project is a simple React application that displays interesting facts about React. It's designed to showcase my learning progress and understanding of React concepts such as components, state, and props. I've created this project by following the Scrimba React course, but I've added my own touch to make it unique.
+This project is a simple React application that displays interesting facts about React. It's designed to showcase my learning progress and understanding of React concepts such as components, state. I've created this project by following the Scrimba React course, but I've added my own touch to make it unique.
 
 ## Demo
 
-You can check out the live demo of the project here: [Demo Link](#)
+You can check out the live demo of the project here: [Demo Link](https://mustapha-react-facts-app.netlify.app/)
 
-![Project Demo](demo-screenshot.png)
+![Project Screenshot)](https://github.com/Mustapha-Nkhili/react-facts-app/assets/127800851/b1bb8e55-7e68-4d06-931f-018e7ce7792b)
 
 ## Features
 
 - Display a list of interesting facts about React.
 - Ability to add new facts.
-- Edit and delete existing facts.
 - User-friendly interface.
 
 ## Getting Started
