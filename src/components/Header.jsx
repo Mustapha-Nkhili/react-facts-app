@@ -1,6 +1,5 @@
 import reactLogo from "../assets/react.svg";
 export default function Header() {
-  
   const switchTheme = (e) => {
     if (e.target.checked) {
       document.querySelector("body").setAttribute("data-theme", "light");

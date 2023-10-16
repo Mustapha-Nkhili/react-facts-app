@@ -18,9 +18,6 @@
   -webkit-text-size-adjust: 100%;
 }
 
-html {
-  overflow: hidden;
-}
 [data-theme="light"] {
   --primary-clr: #fff;
   --secondary-clr: #fff;

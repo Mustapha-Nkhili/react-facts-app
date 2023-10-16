@@ -11,8 +11,6 @@ export default function MainContent() {
       setInputValue("");
     }
   };
-
-  //   setNewFact(false);
   return (
     <>
       <main className="MainContent">
@@ -28,8 +26,8 @@ export default function MainContent() {
           ))}
         </ul>
         <aside>
-        <img src={reactSecondaryLogo} alt="react logo" />
-      </aside>
+          <img src={reactSecondaryLogo} alt="react logo" />
+        </aside>
       </main>
       <footer>
         <form className="add-facts">
