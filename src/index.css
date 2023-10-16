@@ -3,9 +3,13 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #282C35;
+  --txt-color: rgba(255, 255, 255, 0.87);
+  --primary-clr: #282C35;
+  --secondary-clr: #22222A;
+  --bleu-clr: #61DAFB;
+
+  color: var(--txt-color);
+  background-color: var(--primary-clr);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -14,18 +18,17 @@
   -webkit-text-size-adjust: 100%;
 }
 
+html {
+  overflow: hidden;
+}
+[data-theme="light"] {
+  --primary-clr: #fff;
+  --secondary-clr: #fff;
+  --txt-color: #213547;
+}
+
 * {
   margin: 0;
   padding: 0;
-}
-
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
+  transition: all 350ms ease-in-out;
 }
